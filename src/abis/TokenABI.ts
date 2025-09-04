@@ -1,0 +1,20 @@
+export const TokenABI = [
+  "function name() view returns (string)",
+  "function symbol() view returns (string)",
+  "function decimals() view returns (uint8)",
+  "function totalSupply() view returns (uint256)",
+  "function balanceOf(address owner) view returns (uint256)",
+  "function transfer(address to, uint256 amount) returns (bool)",
+  "function allowance(address owner, address spender) view returns (uint256)",
+  "function approve(address spender, uint256 amount) returns (bool)",
+  "function transferFrom(address from, address to, uint256 amount) returns (bool)",
+  "function MAX_SUPPLY() view returns (uint256)",
+  "function hasRole(bytes32 role, address account) view returns (bool)",
+  "function MINTER_ROLE() view returns (bytes32)",
+  "function mint(address to, uint256 amount)",
+  "function pause()",
+  "function unpause()",
+  "function paused() view returns (bool)",
+  "event Transfer(address indexed from, address indexed to, uint256 value)",
+  "event Approval(address indexed owner, address indexed spender, uint256 value)"
+] as const;

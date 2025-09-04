@@ -1,0 +1,6 @@
+.env
+/.deps
+/.states
+/.vscode
+cache
+node_modules
